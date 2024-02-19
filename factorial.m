@@ -1,16 +1,13 @@
 clear all
 clc
 
-num=input('Introduzca un número entero:);
+num=input('Introduzca un número entero:');
 
-factorial=1
+Factorial=1;
 
 for i=1:num-1
-    factorial=factorial*i
+    Factorial=Factorial*i;
 end
 
-if num>=0
-    disp('El factorial de' num2str(num) 'es:' factorial)
-else
-    disp(['El factorial de',num,'es:',factorial])
-end
+
+    disp(['El factorial de ' ,num2str(num) ,' es: ', num2str(Factorial)]);
