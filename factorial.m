@@ -1,7 +1,7 @@
 clear all
 clc
 
-num=input('Introduzca un número entero:);
+num=input('Introduzca un número entero:'); % Se ha añadido una comilla
 
 factorial=1
 
